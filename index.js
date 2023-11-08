@@ -36,3 +36,72 @@ let laptop = undefined;
 console.log(computer)
 console.log(laptop)
 console.log(`${num1} / ${num2} is ${Math.floor(x)} remainder ${remainder}`)
+
+//functions
+function euroconversion(){
+    let Rands = 1000/19.76;
+ console.log(`E`+Rands)
+return euroconversion;
+}
+euroconversion()
+function dollarconversion (){
+    let Rands = 1000/18.52;
+ console.log('$'+Rands)
+return dollarconversion;
+}
+dollarconversion()
+function poundconversion(){
+    let Rands = 1000/22.68;
+ console.log('P'+Rands)
+return poundconversion;
+}
+poundconversion()
+
+function taxcalc(){
+let initialamount = 400;
+let Vat = 15/100;
+let finalamount = initialamount*Vat;
+console.log(`The amount after tax is  R ${finalamount+initialamount}`)
+return taxcalc;
+}
+taxcalc()
+
+let Num1 = 8
+let Num2 =20
+let Num3 =14
+function compare(){
+    if (Num1<Num2){
+        console.log(Num2)
+    }
+    else if (Num1>Num2){
+        console.log(Num1)
+    }
+    else console.log(Num1)
+    return compare
+}
+compare()
+
+function oddnumber(){
+    if (Num1%2 == 0){
+        console.log('even number')
+    }
+    else if (Num1%2 > 0){
+        console.log('odd number')
+    }
+    return oddnumber
+}
+oddnumber()
+if  (Num1>Num2 && Num1>Num3){
+    console.log(Num1)
+}
+else if (Num2>Num1 && Num2>Num3){
+    console.log(Num2)
+}
+else if (Num3>Num2 && Num3>Num1)
+console.log(Num3)
+if (Num3<Num2 && Num2>Num1){
+    console.log(Num3)
+}
+if (Num1<Num2 && Num1<Num3){
+    console.log(Num1)
+}
