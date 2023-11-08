@@ -10,6 +10,7 @@ let x =num1/num2;
 let remainder = num1%num2;
 console.log(remainder)
 // 2.5
+
 console.log(`${num1} / ${num2} is ${Math.floor(x)} remainder ${remainder}`)
 
 ///Datatypes challenge
@@ -34,3 +35,4 @@ let computer = null;
 let laptop = undefined;
 console.log(computer)
 console.log(laptop)
+console.log(`${num1} / ${num2} is ${Math.floor(x)} remainder ${remainder}`)
